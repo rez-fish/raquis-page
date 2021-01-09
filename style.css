@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.508), rgba(0, 0, 0, 0.1)),
+    url('https://scontent-ort2-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/116103349_777775586303224_5984683287799434426_n.jpg?_nc_ht=scontent-ort2-1.cdninstagram.com&_nc_cat=104&_nc_ohc=Sa-EX_eV2loAX9x4eus&tp=1&oh=54f2f86297eff917d17a5a5ae7b90925&oe=602262C6');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+
+  background-position: top;
+  text-align: center;
+}
+
+.main h1 {
+  position: relative;
+  color: white;
+  font-size: 3rem;
+  top: 15vh;
+}
+
+@media only screen and (max-width: 600px) {
+  .main {
+    background-position: bottom;
+  }
+}
